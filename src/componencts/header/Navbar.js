@@ -1,3 +1,5 @@
+import { BiSearchAlt } from "react-icons/bi";
+
 const Navbar = () => {
   return (
     <div className="bg-white h-[70px] flex flex-col justify-center">
@@ -7,7 +9,14 @@ const Navbar = () => {
             <h1 className="text-white">TCP</h1>
           </div>
           <div className="ml-2 flex flex-col justify-center">
-            <input type="text" placeholder="Search..." className="border-b-2" />
+            <input
+              type="text"
+              placeholder="Search..."
+              className="border-b-2 focus:outline-none"
+            />
+          </div>
+          <div className="ml-2 flex flex-col justify-center">
+            <BiSearchAlt />
           </div>
         </div>
         <div className="flex h-[40px] mt-[5px]">
