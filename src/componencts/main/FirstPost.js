@@ -2,14 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FcLike } from "react-icons/fc";
 import { AiFillFire } from "react-icons/ai";
-import { BsFillEmojiLaughingFill } from "react-icons/bs";
+import { BsFillEmojiLaughingFill, BsBookmark } from "react-icons/bs";
+import { BiComment } from "react-icons/bi";
 
 import Card from "../UI/Card";
 
 const FirstPost = () => {
   return (
     <Card bg="white" colSpan="2">
-      <div>
+      <div className="mb-8">
         <div>
           <img
             className="rounded-t-lg"
@@ -53,21 +54,27 @@ const FirstPost = () => {
           </div>
 
           {/* Reactions */}
-          <div className="flex">
-            <div className=" flex px-2 hover:bg-gray-200 rounded-md ease-in duration-150">
-              <div className="flex mt-1 mr-3">
-                <FcLike />
-                <AiFillFire />
-                <BsFillEmojiLaughingFill />
+          <div className="mt-1 flex justify-between">
+            <div className="flex">
+              <div className=" flex px-2 py-1 hover:bg-gray-200 rounded-md ease-in duration-150">
+                <div className="flex mt-1 mr-3">
+                  <FcLike />
+                  <AiFillFire className="text-orange-500" />
+                  <BsFillEmojiLaughingFill className="text-[#ffcb4c]" />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-700">78 reactions</p>
+                </div>
               </div>
-              <div>
-                <p className="text-sm text-gray-700">78 reactions</p>
-              </div>
-              <div className="ml-8">
+              <div className="ml-8 flex mt-1">
+                <BiComment className="mt-1" />
                 <p className="text-sm text-gray-700">19 comments</p>
               </div>
             </div>
-            <div></div>
+            <div className="flex">
+              <p className="mr-2 text-sm text-gray-600">2min read</p>
+              <BsBookmark className="mt-1 cursor-pointer" />
+            </div>
           </div>
         </div>
       </div>
