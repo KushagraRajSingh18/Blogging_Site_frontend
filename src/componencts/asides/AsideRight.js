@@ -3,9 +3,9 @@ import React from "react";
 import Card from "../UI/Card";
 import NewUser from "./NewUser";
 
-const AsideLeft = () => {
+const AsideRight = () => {
   return (
-    <div className="w-64">
+    <div className="w-72">
       <Card bg="white" padding="4">
         <NewUser />
       </Card>
@@ -13,4 +13,4 @@ const AsideLeft = () => {
   );
 };
 
-export default AsideLeft;
+export default AsideRight;

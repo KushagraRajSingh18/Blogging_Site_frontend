@@ -1,18 +1,25 @@
+import Card from "../componencts/UI/Card";
 import AsideLeft from "../componencts/asides/AsideLeft";
+import AsideRight from "../componencts/asides/AsideRight";
 import Navbar from "../componencts/header/Navbar";
 import Main from "../componencts/main/Main";
-import Card from "../componencts/UI/Card";
 
 const HomePage = () => {
   return (
     <>
       <Navbar />
-      <div className="w-[85%] m-auto grid grid-cols-4 gap-4 mt-3">
-        <AsideLeft />
-        <Main />
-        <Card bg="white" padding="4">
-          Aside 3
-        </Card>
+      <div className="w-[85%] m-auto mt-4">
+        <div className="flex">
+          <div className="mr-4">
+            <AsideLeft />
+          </div>
+          <div>
+            <Main />
+          </div>
+          <div className="ml-4">
+            <AsideRight />
+          </div>
+        </div>
       </div>
     </>
   );
