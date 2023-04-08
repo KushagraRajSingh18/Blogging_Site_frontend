@@ -1,0 +1,32 @@
+export const data = [
+  {
+    id: "b1",
+    author: "abhay",
+    date: "Apr 9",
+    title: "This is the third BLOG",
+    tags: ["webdev", "javascript", "programming", "motivation"],
+    reacions: 22,
+    comments: 1,
+    readTime: 6,
+  },
+  {
+    id: "b2",
+    author: "arsh",
+    date: "Apr 4",
+    title: "This is the second BLOG",
+    tags: ["webdev", "javascript", "programming", "motivation"],
+    reacions: 22,
+    comments: 1,
+    readTime: 1,
+  },
+  {
+    id: "b3",
+    author: "ashish",
+    date: "Apr 1",
+    title: "This is the first BLOG",
+    tags: ["webdev", "javascript", "programming", "motivation"],
+    reacions: 22,
+    comments: 1,
+    readTime: 2,
+  },
+];
