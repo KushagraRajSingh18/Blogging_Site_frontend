@@ -7,9 +7,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <div className="w-[85%] m-auto grid grid-cols-4 gap-4 mt-3">
-        <Card bg="white">
-          <AsideLeft />
-        </Card>
+        <AsideLeft />
         <Card bg="white" colSpan="2">
           Aside 2
         </Card>
