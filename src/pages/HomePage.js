@@ -1,4 +1,3 @@
-import Card from "../componencts/UI/Card";
 import AsideLeft from "../componencts/asides/AsideLeft";
 import AsideRight from "../componencts/asides/AsideRight";
 import Navbar from "../componencts/header/Navbar";

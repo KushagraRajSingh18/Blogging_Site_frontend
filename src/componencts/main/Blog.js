@@ -8,10 +8,10 @@ import Card from "../UI/Card";
 
 const Blog = (props) => {
   return (
-    <Card bg="white" colSpan="2">
-      <div className="mb-8">
+    <Card bg="white">
+      <div>
         {/* For Autor detials */}
-        <div className="m-4 mt-6 flex">
+        <div className="p-6 flex">
           <div className="mr-2 h-10 w-10">
             <img src="/assets/0213bbaa-d5a1-4d25-9e7a-10c30b455af0.webp" />
           </div>

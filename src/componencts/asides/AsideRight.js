@@ -9,6 +9,9 @@ const AsideRight = () => {
       <Card bg="white" padding="4">
         <NewUser />
       </Card>
+      <Card bg="white" padding="4">
+        <NewUser />
+      </Card>
     </div>
   );
 };

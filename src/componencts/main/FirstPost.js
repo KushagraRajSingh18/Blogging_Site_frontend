@@ -9,8 +9,8 @@ import Card from "../UI/Card";
 
 const FirstPost = () => {
   return (
-    <Card bg="white" colSpan="2">
-      <div className="mb-8">
+    <Card bg="white">
+      <div>
         <div>
           <img
             className="rounded-t-lg"
