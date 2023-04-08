@@ -6,7 +6,7 @@ import NewUser from "./NewUser";
 const AsideLeft = () => {
   return (
     <div>
-      <Card bg="white">
+      <Card bg="white" padding="4">
         <NewUser />
       </Card>
     </div>
