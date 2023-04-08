@@ -1,4 +1,10 @@
 import React from "react";
+import { FcLike } from "react-icons/fc";
+import { AiFillFire } from "react-icons/ai";
+import { BsFillEmojiLaughingFill, BsBookmark } from "react-icons/bs";
+import { BiComment } from "react-icons/bi";
+
+import Card from "../UI/Card";
 
 const Blog = (props) => {
   return (
