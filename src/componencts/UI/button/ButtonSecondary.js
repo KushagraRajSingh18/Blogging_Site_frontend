@@ -1,7 +1,7 @@
 import React from "react";
 
 const ButtonSecondary = ({ children }) => {
-  return <button>{children}</button>;
+  return <button className="text-gray-600">{children}</button>;
 };
 
 export default ButtonSecondary;
