@@ -1,5 +1,8 @@
 import { BiSearchAlt } from "react-icons/bi";
 
+import ButtonPrimary from "../UI/button/ButtonPrimary";
+import ButtonSecondary from "../UI/button/ButtonSecondary";
+
 const Navbar = () => {
   return (
     <div className="bg-white h-[70px] flex flex-col justify-center">
@@ -20,10 +23,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex h-[40px] mt-[5px]">
-          <button>Login</button>
-          <button className="bg-clear ml-2 font-bold text-blue-600 border border-blue-600 py-1 px-2 rounded-lg">
-            Create Account
-          </button>
+          <ButtonSecondary>Login</ButtonSecondary>
+          <ButtonPrimary>Create account</ButtonPrimary>
         </div>
       </div>
     </div>
