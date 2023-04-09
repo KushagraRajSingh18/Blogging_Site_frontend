@@ -21,7 +21,7 @@ const BlogDetail = () => {
             <Main />
           </div>
           <div className="ml-4">
-            <UserDetail />
+            <UserDetail author={dataItem.author} description="Noob Coder" />
           </div>
         </div>
       </div>
