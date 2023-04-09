@@ -11,6 +11,8 @@ const Main = () => {
       {data.map((item) => {
         return (
           <Blog
+            key={item.id}
+            id={item.id}
             author={item.author}
             date={item.date}
             title={item.title}

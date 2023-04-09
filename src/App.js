@@ -1,15 +1,29 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Root from "./pages/Root";
+import "./App.css";
+import BlogDetail from "./pages/BlogDetail";
 import HomePage from "./pages/HomePage";
 
-import "./App.css";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+      },
+      {
+        path: "/blog/:id",
+        element: <BlogDetail />,
+      },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    // <div className="App">
-    //   <Navbar />
-    //   <h1 className="text-5xl">Hello World</h1>
-    // </div>
-    <HomePage />
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
