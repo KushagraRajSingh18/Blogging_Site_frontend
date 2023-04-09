@@ -2,6 +2,7 @@ import React from "react";
 
 import Card from "../UI/Card";
 import NewUser from "./NewUser";
+import LeftNavigation from "./LeftNavigation";
 
 const AsideLeft = () => {
   return (
@@ -9,6 +10,11 @@ const AsideLeft = () => {
       <Card bg="white" padding="4">
         <NewUser />
       </Card>
+
+      {/* Navigation LINKS */}
+      <div>
+        <LeftNavigation />
+      </div>
     </div>
   );
 };
