@@ -18,7 +18,7 @@ const BlogDetail = () => {
             <LeftReactions />
           </div>
           <div className="ml-16">
-            <Main />
+            <BlogDetail data={dataItem} />
           </div>
           <div className="ml-4">
             <UserDetail author={dataItem.author} description="Noob Coder" />
