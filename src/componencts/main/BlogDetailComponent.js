@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../UI/wrapper/Card";
 
-const BlogDetail = (props) => {
+const BlogDetailComponent = (props) => {
   return (
     <Card bg="white" padding="0">
       <div>
@@ -19,7 +19,7 @@ const BlogDetail = (props) => {
           </div>
           <div className="flex flex-col h-10 mt-[-6px]">
             <h2 className="text-gray-800 font-semibold">{props.data.author}</h2>
-            <p className="text-gray-600">{props.date}</p>
+            <p className="text-gray-600">{props.data.date}</p>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ const BlogDetail = (props) => {
           {/* Heading of Blog */}
           <div className="w-full">
             <h1 className="text-gray-800 text-3xl font-bold">
-              {props.heading}
+              {props.data.heading}
             </h1>
           </div>
           {/* tags */}
@@ -48,11 +48,11 @@ const BlogDetail = (props) => {
           </div>
 
           {/* Blog decription content */}
-          <div>{props.decription}</div>
+          <div className="mt-4 text-gray-800">{props.data.description}</div>
         </div>
       </div>
     </Card>
   );
 };
 
-export default BlogDetail;
+export default BlogDetailComponent;

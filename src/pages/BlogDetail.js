@@ -2,13 +2,14 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../utils/data";
 import LeftReactions from "../componencts/asides/left/LeftReactions";
-import Main from "../componencts/main/Main";
 import UserDetail from "../componencts/asides/right/UserDetail";
+import BlogDetailComponent from "../componencts/main/BlogDetailComponent";
 
 const BlogDetail = () => {
   const params = useParams();
 
   const dataItem = data.find((item) => item.id === params.id);
+  console.log(dataItem);
 
   return (
     <>
@@ -18,7 +19,7 @@ const BlogDetail = () => {
             <LeftReactions />
           </div>
           <div className="ml-16">
-            <BlogDetail data={dataItem} />
+            <BlogDetailComponent data={dataItem} />
           </div>
           <div className="ml-4">
             <UserDetail author={dataItem.author} description="Noob Coder" />
