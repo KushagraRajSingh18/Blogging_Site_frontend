@@ -1,8 +1,8 @@
 import React from "react";
 
 import Card from "../UI/Card";
-import NewUser from "./NewUser";
-import LeftNavigation from "./LeftNavigation";
+import NewUser from "./left/NewUser";
+import LeftNavigation from "./left/LeftNavigation";
 
 const AsideLeft = () => {
   return (

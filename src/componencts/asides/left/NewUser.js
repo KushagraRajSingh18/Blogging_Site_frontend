@@ -1,7 +1,7 @@
 import React from "react";
 
-import ButtonPrimary from "../UI/button/ButtonPrimary";
-import ButtonSecondary from "../UI/button/ButtonSecondary";
+import ButtonPrimary from "../../UI/button/ButtonPrimary";
+import ButtonSecondary from "../../UI/button/ButtonSecondary";
 
 const NewUser = () => {
   return (
