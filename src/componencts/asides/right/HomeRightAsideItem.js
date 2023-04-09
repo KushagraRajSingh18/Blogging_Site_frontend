@@ -1,6 +1,6 @@
 import React from "react";
 
-const ListingRightAsideItem = (props) => {
+const HomeRightAsideItem = (props) => {
   return (
     <div className="py-4 px-2 hover:bg-gray-200 ease-in duration-150">
       <h3 className="text-gray-700 mb-2">{props.title}</h3>
@@ -9,4 +9,4 @@ const ListingRightAsideItem = (props) => {
   );
 };
 
-export default ListingRightAsideItem;
+export default HomeRightAsideItem;
