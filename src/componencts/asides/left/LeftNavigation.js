@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FcHome, FcList, FcAbout } from "react-icons/fc";
+import { FcHome, FcList } from "react-icons/fc";
 import { BsMicFill, BsFillCameraReelsFill } from "react-icons/bs";
 import { BiHash } from "react-icons/bi";
 import { MdOutlineContactSupport } from "react-icons/md";

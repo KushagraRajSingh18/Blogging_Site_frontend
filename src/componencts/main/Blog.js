@@ -6,7 +6,7 @@ import { AiFillFire } from "react-icons/ai";
 import { BsFillEmojiLaughingFill, BsBookmark } from "react-icons/bs";
 import { BiComment } from "react-icons/bi";
 
-import Card from "../UI/Card";
+import Card from "../UI/wrapper/Card";
 
 const Blog = (props) => {
   return (

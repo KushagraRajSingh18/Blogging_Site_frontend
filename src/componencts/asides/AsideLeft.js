@@ -1,6 +1,6 @@
 import React from "react";
 
-import Card from "../UI/Card";
+import Card from "../UI/wrapper/Card";
 import NewUser from "./left/NewUser";
 import LeftNavigation from "./left/LeftNavigation";
 
