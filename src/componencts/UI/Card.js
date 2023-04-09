@@ -1,9 +1,9 @@
 import React from "react";
 
 const Card = (props) => {
-  console.log(props.bg);
+  console.log(props.padding);
   return (
-    <div className={`bg-${props.bg} rounded-md p-${props.padding}  mb-2 pb-8`}>
+    <div className={`bg-${props.bg} rounded-md mb-2 pb-8 p-${props.padding}`}>
       {props.children}
     </div>
   );

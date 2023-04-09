@@ -10,7 +10,7 @@ import Card from "../UI/Card";
 
 const Blog = (props) => {
   return (
-    <Card bg="white">
+    <Card bg="white" padding="0">
       <Link to={`/blog/${props.id}`}>
         <div>
           {/* For Autor detials */}

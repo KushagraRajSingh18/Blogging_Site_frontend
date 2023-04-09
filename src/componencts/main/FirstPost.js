@@ -9,7 +9,7 @@ import Card from "../UI/Card";
 
 const FirstPost = () => {
   return (
-    <Card bg="white">
+    <Card bg="white" padding="0">
       <div>
         <div>
           <img
