@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { useState } from "react";
 import Root from "./pages/Root";
 import "./App.css";
 import BlogDetail from "./pages/BlogDetail";
